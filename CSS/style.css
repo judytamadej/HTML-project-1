@@ -119,7 +119,7 @@ nav a {
     text-align: right;
 }
 
-.about-employee-pic {
+.about-employee-pic-woman {
     width: 200px;
     height: 200px;
     flex-shrink: 0;
@@ -128,6 +128,17 @@ nav a {
     background-position: center;
     background-size: cover;
 }
+
+.about-employee-pic-man {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-image: url(https://image.freepik.com/darmowe-zdjecie/mand-trzyma-filizanke_1258-340.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
 .about-employee-desc {
     margin-left: 54px;
